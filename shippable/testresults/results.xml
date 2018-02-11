@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.096095">
-<testcase classname="Send money" name="I sign Up with new user credentials" time="9.096095">
-<system-out><![CDATA[Given I am a backoffice user................................................passed
-When I login to backoffice with valid credentials...........................passed
-And I sign up as "ADMIN"....................................................passed
-Then I should see a message telling me "Operator added."....................passed
-]]></system-out>
-</testcase>
-</testsuite>
