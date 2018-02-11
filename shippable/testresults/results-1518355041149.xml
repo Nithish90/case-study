@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.421045">
+<testcase classname="Trendyol" name="Add product into basket" time="68.421045">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 0, Size: 0&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(ArrayList.java:657)&#13;&#10;&#9;at java.util.ArrayList.get(ArrayList.java:433)&#13;&#10;&#9;at com.trendyol.pageobjects.web.TrendyolBotiqueProductPageObject.openProductDetail(TrendyolBotiqueProductPageObject.java:33)&#13;&#10;&#9;at com.trendyol.stepdefs.TrendyolBotiqueProductSelectionSteps.iOpenProductDetail(TrendyolBotiqueProductSelectionSteps.java:44)&#13;&#10;&#9;at ✽.And I open product detail(trendyol.feature:13)&#13;&#10;"><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 1 category...............................................passed
+And I open product detail...................................................failed
+And I add a product into the basket.........................................skipped
+Then Product should be in the basket........................................skipped
+And I should logged out.....................................................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.trendyol.pageobjects.web.TrendyolBotiqueProductPageObject.openProductDetail(TrendyolBotiqueProductPageObject.java:33)
+	at com.trendyol.stepdefs.TrendyolBotiqueProductSelectionSteps.iOpenProductDetail(TrendyolBotiqueProductSelectionSteps.java:44)
+	at ✽.And I open product detail(trendyol.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

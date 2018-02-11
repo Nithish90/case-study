@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="168.898054">
+<testcase classname="Trendyol" name="Add product into basket" time="168.898054">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == .login\-container&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'ONUR-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=10, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=true, elementScrollBehavior=0.0, enablePersistentHover=false, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=true, initialBrowserUrl=http://localhost:34469/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=true}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]&#10;Session ID: 4e0b07b5-4b96-4894-8bc1-31d8ebcd1724&#10;*** Element info: {Using=class name, value=login-container}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:493)&#13;&#10;&#9;at org.openqa.selenium.By$ByClassName.findElement(By.java:391)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#13;&#10;&#9;at com.trendyol.pageobjects.web.TrendyolLoginPageObject.logout(TrendyolLoginPageObject.java:56)&#13;&#10;&#9;at com.trendyol.stepdefs.TrendyolLoginSteps.iShouldLoggedOut(TrendyolLoginSteps.java:48)&#13;&#10;&#9;at ✽.And I should logged out(trendyol.feature:16)&#13;&#10;"><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 1 category...............................................passed
+And I open product detail...................................................passed
+And I add a product into the basket.........................................passed
+Then Product should be in the basket........................................passed
+And I should logged out.....................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == .login\-container
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ONUR-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=10, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=true, elementScrollBehavior=0.0, enablePersistentHover=false, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=true, initialBrowserUrl=http://localhost:34469/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=true}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 4e0b07b5-4b96-4894-8bc1-31d8ebcd1724
+*** Element info: {Using=class name, value=login-container}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:493)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.trendyol.pageobjects.web.TrendyolLoginPageObject.logout(TrendyolLoginPageObject.java:56)
+	at com.trendyol.stepdefs.TrendyolLoginSteps.iShouldLoggedOut(TrendyolLoginSteps.java:48)
+	at ✽.And I should logged out(trendyol.feature:16)
+]]></failure>
+</testcase>
+</testsuite>

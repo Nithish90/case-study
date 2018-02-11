@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="961.496082">
+<testcase classname="Trendyol" name="Valid login" time="51.920778">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+When I login to trendyol with valid credentials.............................passed
+Then I should be logged in..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Add product into basket" time="154.643819">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 1 category...............................................passed
+And I open product detail...................................................passed
+And I add a product into the basket.........................................passed
+Then Product should be in the basket........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 1" time="107.204936">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 1 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 2" time="109.621585">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 2 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 3" time="82.899469">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 3 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 4" time="65.249013">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 4 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 5" time="61.588932">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 5 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 6" time="71.154289">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 6 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 7" time="64.297776">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 7 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 8" time="64.29213">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 8 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 9" time="61.763984">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 9 category...............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trendyol" name="Check tabbed menu pages 10" time="66.859371">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+And I login to trendyol with valid credentials..............................passed
+When I open a menu 10 category..............................................passed
+Then Page should be loaded properly.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

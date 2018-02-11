@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="263.941064">
+<testcase classname="Backoffice Customer" name="List customer and details" time="263.941064">
+<system-out><![CDATA[Given I am a backoffice user................................................passed
+And I login to backoffice with valid credentials............................passed
+When I open customer list...................................................passed
+And I open first customer detail............................................passed
+Then I should see details...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

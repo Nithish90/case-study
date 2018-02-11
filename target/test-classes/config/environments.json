@@ -1,0 +1,14 @@
+{
+  "environments": [
+    {
+      "id": "TestEnvironment",
+      "properties": {
+      "customerBaseUrl": "https://www.trendyol.com/",
+      "password": "Password1!",
+      "user": "onuryenici81@gmail.com"
+      }
+    }
+  ]
+}
+
+

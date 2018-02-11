@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.333636">
+<testcase classname="Trendyol" name="Valid login" time="52.333636">
+<system-out><![CDATA[Given I am a trendyol user..................................................passed
+When I login to trendyol with valid credentials.............................passed
+Then I should be logged in..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

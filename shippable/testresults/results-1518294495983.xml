@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="198.263152">
+<testcase classname="Trendyol" name="Valid login" time="198.263152">
+<failure message="org.openqa.selenium.TimeoutException: timeout&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'ONUR-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at com.trendyol.framework.Helper.WaitForElementPresent(Helper.java:30)&#13;&#10;&#9;at com.trendyol.framework.Helper.getTextByClass(Helper.java:308)&#13;&#10;&#9;at com.trendyol.pageobjects.web.TrendyolLoginPageObject.isLoggedIn(TrendyolLoginPageObject.java:53)&#13;&#10;&#9;at com.trendyol.stepdefs.TrendyolLoginSteps.iShouldBeLoggedIn(TrendyolLoginSteps.java:43)&#13;&#10;&#9;at ✽.Then I should be logged in(trendyol.feature:7)&#13;&#10;"><![CDATA[Given I am a trendyol user..................................................passed
+When I login to trendyol with valid credentials.............................passed
+Then I should be logged in..................................................failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ONUR-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+	at com.trendyol.framework.Helper.WaitForElementPresent(Helper.java:30)
+	at com.trendyol.framework.Helper.getTextByClass(Helper.java:308)
+	at com.trendyol.pageobjects.web.TrendyolLoginPageObject.isLoggedIn(TrendyolLoginPageObject.java:53)
+	at com.trendyol.stepdefs.TrendyolLoginSteps.iShouldBeLoggedIn(TrendyolLoginSteps.java:43)
+	at ✽.Then I should be logged in(trendyol.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
